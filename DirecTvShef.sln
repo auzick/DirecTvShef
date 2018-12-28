@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirecTvShef", "DirecTvShef\DirecTvShef.csproj", "{82A75F30-A2FD-452A-B399-6633AB8D3DB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shef", "Shef\Shef.csproj", "{1E3DB1E6-CCE3-4B4C-BF91-F801FEF27104}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B0D07F21-D18F-4055-AB68-802439D6DB4C}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\DTV-MD-0058-DIRECTV Installer V2.2-3.pdf = Docs\DTV-MD-0058-DIRECTV Installer V2.2-3.pdf
+		Docs\DTV-MD-0359-DIRECTV_SHEF_V1.3.C-1.pdf = Docs\DTV-MD-0359-DIRECTV_SHEF_V1.3.C-1.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82A75F30-A2FD-452A-B399-6633AB8D3DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A75F30-A2FD-452A-B399-6633AB8D3DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A75F30-A2FD-452A-B399-6633AB8D3DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A75F30-A2FD-452A-B399-6633AB8D3DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3DB1E6-CCE3-4B4C-BF91-F801FEF27104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3DB1E6-CCE3-4B4C-BF91-F801FEF27104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3DB1E6-CCE3-4B4C-BF91-F801FEF27104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3DB1E6-CCE3-4B4C-BF91-F801FEF27104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A2F2BEA-98F4-452E-809E-F2FAFB1C98AF}
+	EndGlobalSection
+EndGlobal
