@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="DataPort.cs" />
     <Compile Include="EnumHelper.cs" />
-    <Compile Include="EnumMemberValueSerializer.cs" />
     <Compile Include="Model\IShefResponse.cs" />
     <Compile Include="Model\Responses\Command.cs" />
     <Compile Include="Model\Responses\Locations.cs" />
