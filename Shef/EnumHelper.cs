@@ -1,10 +1,21 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Globalization;
 
 namespace Shef
 {
     public static class EnumHelper
     {
+        public static T ParseValue<T>(decimal description)
+        {
+            return ParseValue<T>(description.ToString(CultureInfo.InvariantCulture));
+        }
+
+        public static T ParseValue<T>(byte description)
+        {
+            return ParseValue<T>(System.Text.Encoding.ASCII.GetString(new[] {description}));
+        }
+
         public static T ParseValue<T>(string description)
         {
             var type = typeof(T);

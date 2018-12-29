@@ -21,10 +21,7 @@ namespace Shef
 
         public static DateTime FromSortDate(string date)
         {
-            var y = int.Parse(date.Substring(0, 4));
-            var m = int.Parse(date.Substring(4, 2));
-            var d = int.Parse(date.Substring(6, 2));
-            return new DateTime(y, m, d);
+            return DateTime.ParseExact(date, "yyyyMMdd", null);
         }
     }
 }

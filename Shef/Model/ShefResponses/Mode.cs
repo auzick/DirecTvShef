@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Shef.Model.Responses
+namespace Shef.Model.ShefResponses
 {
     public enum StbMode
     {

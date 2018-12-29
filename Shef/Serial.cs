@@ -4,29 +4,28 @@ namespace Shef
 {
     public static class Serial
     {
-        public static readonly Dictionary<string, string> Commands
-            = new Dictionary<string, string>
-            {
-                { "Standby", "FA81" },
-                { "Active", "FA82" },
-                { "GetPrimaryStatus", "FA83" },
-                { "GetCommandVersion", "FA84" },
-                { "GetCurrentChannel", "FA87" },
-                { "GetSignalQuality", "FA90" },
-                { "GetCurrentTime", "FA91" },
-                { "GetUserCommand", "FA92" },
-                { "EnableUserEntry", "FA93" },
-                { "DisableUserEntry", "FA94" },
-                { "GetReturnValue", "FA95" },
-                { "Reboot", "FA96" },
-                { "SendUserCommand", "FAA5" },
-                { "OpenUserChannel", "FAA6" },
-                { "GetTuner", "FA9A" },
-                { "GetPrimaryStatusMT", "FA8A" },
-                { "GetCurrentChannelMT", "FA8B" },
-                { "GetSignalQualityMT", "FA9D" },
-                { "OpenUserChannelMT", "FA9F" }
-            };
+        public static class Commands
+        {
+            public static string Standby = "FA81";
+            public static string Active = "FA82";
+            public static string GetPrimaryStatus = "FA83";
+            public static string GetCommandVersion = "FA84";
+            public static string GetCurrentChannel = "FA87";
+            public static string GetSignalQuality = "FA90";
+            public static string GetCurrentTime = "FA91";
+            public static string GetUserCommand = "FA92";
+            public static string EnableUserEntry = "FA93";
+            public static string DisableUserEntry = "FA94";
+            public static string GetReturnValue = "FA95";
+            public static string Reboot = "FA96";
+            public static string SendUserCommand = "FAA5";
+            public static string OpenUserChannel = "FAA6";
+            public static string GetTuner = "FA9A";
+            public static string GetPrimaryStatusMT = "FA8A";
+            public static string GetCurrentChannelMT = "FA8B";
+            public static string GetSignalQualityMT = "FA9D";
+            public static string OpenUserChannelMT = "FA9F";
+        }
 
         public static List<Response> Responses;
 

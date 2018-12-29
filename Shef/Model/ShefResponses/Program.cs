@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using Newtonsoft.Json;
 
-namespace Shef.Model.Responses
+namespace Shef.Model.ShefResponses
 {
     [JsonConverter(typeof(StringDescriptionEnumConverter))]
     public enum ParentalControlLock
@@ -19,7 +19,6 @@ namespace Shef.Model.Responses
         [Description("3")] Regular,
         [Description("4")] RecurringManual,
     }
-
 
 
     public class Program : IShefResponse

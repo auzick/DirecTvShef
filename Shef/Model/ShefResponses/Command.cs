@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Shef.Model.Responses
+namespace Shef.Model.ShefResponses
 {
     public class Command : IShefResponse
     {

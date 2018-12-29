@@ -47,24 +47,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiSerial.cs" />
+    <Compile Include="Model\SerialResponses\CommandVersion.cs" />
+    <Compile Include="Model\SerialResponses\CurrentChannel.cs" />
+    <Compile Include="Model\SerialResponses\SerialResponse.cs" />
+    <Compile Include="Model\SerialResponses\CurrentTime.cs" />
+    <Compile Include="Model\SerialResponses\Enums.cs" />
+    <Compile Include="Model\SerialResponses\PrimaryStatus.cs" />
+    <Compile Include="Model\SerialResponses\SignalQuality.cs" />
     <Compile Include="Serial.cs" />
     <Compile Include="EnumHelper.cs" />
-    <Compile Include="Model\IShefResponse.cs" />
-    <Compile Include="Model\Responses\Command.cs" />
-    <Compile Include="Model\Responses\Locations.cs" />
-    <Compile Include="Model\Responses\Mode.cs" />
-    <Compile Include="Model\Responses\Music.cs" />
-    <Compile Include="Model\Responses\RemoteKeyPress.cs" />
-    <Compile Include="Model\Responses\Program.cs" />
+    <Compile Include="Model\ShefResponses\IShefResponse.cs" />
+    <Compile Include="Model\ShefResponses\Command.cs" />
+    <Compile Include="Model\ShefResponses\Locations.cs" />
+    <Compile Include="Model\ShefResponses\Mode.cs" />
+    <Compile Include="Model\ShefResponses\Music.cs" />
+    <Compile Include="Model\ShefResponses\RemoteKeyPress.cs" />
+    <Compile Include="Model\ShefResponses\Program.cs" />
     <Compile Include="Api.cs" />
-    <Compile Include="Model\Responses\Return.cs" />
-    <Compile Include="Model\Responses\SerialNumber.cs" />
-    <Compile Include="Model\Responses\Tune.cs" />
-    <Compile Include="Model\Responses\Version.cs" />
+    <Compile Include="Model\ShefResponses\Return.cs" />
+    <Compile Include="Model\ShefResponses\SerialNumber.cs" />
+    <Compile Include="Model\ShefResponses\Tune.cs" />
+    <Compile Include="Model\ShefResponses\Version.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Responses\Status.cs" />
+    <Compile Include="Model\ShefResponses\Status.cs" />
     <Compile Include="Server.cs" />
+    <Compile Include="ApiShef.cs" />
     <Compile Include="StringDescriptionEnumConverter.cs" />
+    <Compile Include="StringHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DateTimeHelpers.cs" />

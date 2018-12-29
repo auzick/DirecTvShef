@@ -1,4 +1,4 @@
-﻿namespace Shef.Model.Responses
+﻿namespace Shef.Model.ShefResponses
 {
     public class Tune : IShefResponse
     {

@@ -1,4 +1,6 @@
-﻿namespace Shef.Model.Responses
+﻿using System.Net;
+
+namespace Shef.Model.ShefResponses
 {
     public class Status
     {
@@ -21,5 +23,7 @@
         /// Incoming query string
         /// </summary>
         public string query { get; set; }
+
+        public string HttpStatusDescription => ((HttpStatusCode)code).ToString();
     }
 }

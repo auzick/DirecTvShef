@@ -1,6 +1,4 @@
-﻿using Shef.Model.Responses;
-
-namespace Shef.Model
+﻿namespace Shef.Model.ShefResponses
 {
     public interface IShefResponse
     {

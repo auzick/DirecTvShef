@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using Newtonsoft.Json;
 
-namespace Shef.Model.Responses
+namespace Shef.Model.ShefResponses
 {
     [JsonConverter(typeof(StringDescriptionEnumConverter))]
     public enum RemoteKeyAction
