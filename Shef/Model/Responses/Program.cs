@@ -30,7 +30,7 @@ namespace Shef.Model.Responses
         public string callsign { get; set; }
 
         /// <summary>
-        /// Release year or first released date of the event for single event or first air date for series
+        /// Release year or first released date of the event for single event or first air date for series. Convert using DateTimeHelper.FromSortDate()
         /// </summary>
         public string date { get; set; }
 
@@ -50,7 +50,7 @@ namespace Shef.Model.Responses
         public string expiration { get; set; }
 
         /// <summary>
-        /// Expiration day & time of the event in UTC seconds.
+        /// Expiration day & time of the event in UTC seconds. Convert using DateTimeHelpers.FromUnixTime().
         /// </summary>
         public long expiryTime { get; set; }
 
@@ -77,7 +77,7 @@ namespace Shef.Model.Responses
         /// <summary>
         /// Whether the event is partially recorded. Only available if the event is a recording.
         /// </summary>
-        public bool IsPartial { get; set; }
+        public bool isPartial { get; set; }
 
         /// <summary>
         /// Whether the event is purchased. Only available if isPpv returns true.
@@ -108,6 +108,11 @@ namespace Shef.Model.Responses
         /// Major channel number.
         /// </summary>
         public int major { get; set; }
+
+        /// <summary>
+        /// Material ID. Only available for VOD and push titles.
+        /// </summary>
+        public string materialId { get; set; }
 
         /// <summary>
         /// Minor channel number.

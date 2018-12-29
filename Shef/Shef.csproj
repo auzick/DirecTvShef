@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataPort.cs" />
+    <Compile Include="Serial.cs" />
     <Compile Include="EnumHelper.cs" />
     <Compile Include="Model\IShefResponse.cs" />
     <Compile Include="Model\Responses\Command.cs" />
@@ -55,7 +55,7 @@
     <Compile Include="Model\Responses\Mode.cs" />
     <Compile Include="Model\Responses\Music.cs" />
     <Compile Include="Model\Responses\RemoteKeyPress.cs" />
-    <Compile Include="Model\Responses\TunedProgram.cs" />
+    <Compile Include="Model\Responses\Program.cs" />
     <Compile Include="Api.cs" />
     <Compile Include="Model\Responses\Return.cs" />
     <Compile Include="Model\Responses\SerialNumber.cs" />

@@ -2,7 +2,7 @@
 
 namespace Shef
 {
-    public static class DataPort
+    public static class Serial
     {
         public static readonly Dictionary<string, string> Commands
             = new Dictionary<string, string>
@@ -30,7 +30,7 @@ namespace Shef
 
         public static List<Response> Responses;
 
-        static DataPort()
+        static Serial()
         {
             Responses = new List<Response>
             {
