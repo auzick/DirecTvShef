@@ -11,7 +11,14 @@ namespace Shef.Model.Responses
     }
     public class Mode : IShefResponse
     {
+        /// <summary>
+        /// Mode.
+        /// </summary>
         public StbMode mode { get; set; }
+
+        /// <summary>
+        /// The status of the request.
+        /// </summary>
         public Status status { get; set; }
     }
 }

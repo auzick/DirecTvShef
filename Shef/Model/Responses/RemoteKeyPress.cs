@@ -71,8 +71,24 @@ namespace Shef.Model.Responses
 
     public class RemoteKeyPress : IShefResponse
     {
+
+        /// <summary>
+        /// Holding status of the simulated key
+        /// </summary>
         public RemoteKeyAction hold { get; set; }
+
+        /// <summary>
+        /// Name of the simulated key
+        /// </summary>
         public RemoteKey key { get; set; }
+
+        /// <summary>
+        /// Command status
+        /// </summary>
+
+        /// <summary>
+        /// The status of the request.
+        /// </summary>
         public Status status { get; set; }
     }
 
